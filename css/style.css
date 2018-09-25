@@ -1,0 +1,86 @@
+
+.progress-bar {
+	background-color: #2098D1;
+	border-radius: 5px;
+	height: 30px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#headline {
+	background-color:#FFD700;
+	margin-left: -5px;
+	margin-right: -5px;
+
+}
+
+#img-logo {
+
+	height: 90px;
+	width:  90px;
+    position: absolute;
+    left: 25px;
+}
+
+#logo {
+  margin-left: -10px;
+}
+
+#title {
+	font-size: 25px;
+}
+
+#caption {
+	font-size: 12px;
+}
+
+#bs-example-navbar-collapse-1 {
+	margin-left: -120px;
+}
+#html {
+	width: 100%;
+}
+
+#css {
+	width: 100%;
+}
+
+#bootstrap {
+	width: 90%;
+}
+
+#javascript {
+	width: 90%;
+}
+
+#angularjs {
+	width: 80%;
+}
+
+#java {
+	width: 80%;
+}
+
+#ruby {
+	width: 70%;
+}
+
+#c {
+	width: 80%;
+}
+
+#rwd {
+	width: 90%;
+}
+
+#vc {
+	width: 90%;
+}
+
+#db {
+	width: 80%;
+}
+
+#ps {
+	width: 90%;
+}
