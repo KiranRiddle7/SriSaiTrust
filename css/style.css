@@ -37,6 +37,20 @@
 #bs-example-navbar-collapse-1 {
 	margin-left: -120px;
 }
+
+#donate {
+
+	position: absolute;
+    right: 50px;
+}
+#temp1 {
+	left: 10px;
+
+}
+
+#temp2 {
+	right: 10px;
+}
 #html {
 	width: 100%;
 }
