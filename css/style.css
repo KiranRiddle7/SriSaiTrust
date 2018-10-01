@@ -11,9 +11,18 @@
 	background-color:#FFD700;
 	margin-left: -5px;
 	margin-right: -5px;
+	height: 20px;
 
 }
 
+.image-header {
+ width: 100%;
+}
+
+.navbar-custom {
+	padding: 8px;
+	margin-bottom: 2px;
+}
 #img-logo {
 
 	height: 90px;
@@ -41,7 +50,14 @@
 #donate {
 
 	position: absolute;
-    right: 50px;
+    right: 20px;
+    top: 15px;
+	height: 40px;
+    width: 110px;
+}
+
+.img-slider {
+	width: 100%;
 }
 #temp1 {
 	left: 10px;
@@ -51,6 +67,8 @@
 #temp2 {
 	right: 10px;
 }
+
+
 #html {
 	width: 100%;
 }
