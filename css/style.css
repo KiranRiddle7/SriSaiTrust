@@ -1,46 +1,17 @@
 
-.progress-bar {
-	background-color: #2098D1;
-	border-radius: 5px;
-	height: 30px;
-	font-weight: bold;
-	font-size: 15px;
-}
-
-#headline {
-	background-color:#FFD700;
-	margin-left: -5px;
-	margin-right: -5px;
-	height: 20px;
-
-}
 
 .image-header {
  width: 100%;
 }
 
-.navbar-custom {
-	padding: 8px;
-	margin-bottom: 2px;
-}
-#img-logo {
-
-	height: 90px;
-	width:  90px;
-    position: absolute;
-    left: 25px;
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
 }
 
-#logo {
-  margin-left: -10px;
-}
+.marqueescroll {
 
-#title {
-	font-size: 25px;
-}
-
-#caption {
-	font-size: 12px;
+	background-color: orange;
 }
 
 #bs-example-navbar-collapse-1 {
@@ -56,63 +27,12 @@
     width: 110px;
 }
 
-.img-slider {
-	width: 100%;
-}
-#temp1 {
-	left: 10px;
-
+.description {
+	text-align: center;
 }
 
-#temp2 {
-	right: 10px;
+.carousel {
+  width: 100%;
+  height: 100%;
 }
 
-
-#html {
-	width: 100%;
-}
-
-#css {
-	width: 100%;
-}
-
-#bootstrap {
-	width: 90%;
-}
-
-#javascript {
-	width: 90%;
-}
-
-#angularjs {
-	width: 80%;
-}
-
-#java {
-	width: 80%;
-}
-
-#ruby {
-	width: 70%;
-}
-
-#c {
-	width: 80%;
-}
-
-#rwd {
-	width: 90%;
-}
-
-#vc {
-	width: 90%;
-}
-
-#db {
-	width: 80%;
-}
-
-#ps {
-	width: 90%;
-}
