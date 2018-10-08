@@ -15,6 +15,11 @@
 
 }
 
+#donatebtn {
+  margin-top: 4px;
+  margin-left: 200px; 
+}
+
 .marqueescroll {
 
 	background-color: orange;
@@ -131,4 +136,13 @@ background: tomato;
 
 .dropdown-submenu {
   position: relative;
+}
+
+#copyright {
+  text-align: center;
+  font-size: 14px;
+}
+
+.socialmedia {
+  color: black;
 }
