@@ -7,14 +7,15 @@
 .navbar {
 	padding-top: 0px;
 	padding-bottom:0px;
-  background-color: #002A5E;
-
 }
 
+ul.navbar-nav li.dropdown:hover ul.dropdown-menu {
+    display: block;
+}
 
 .navbar-nav > li{
-  padding-left:30px;
-  padding-right:30px;
+  padding-left:20px;
+  padding-right:20px;
 }
 
 #donatebtn {

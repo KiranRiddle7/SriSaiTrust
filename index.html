@@ -32,7 +32,7 @@
 </div>
 
           <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -42,8 +42,8 @@
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item dropdown">
-                <a href="pages/aboutus.html" id="menu" data-toggle="dropdown" class="nav-link dropdown-toggle">About</a>
-                <ul class="dropdown-menu">
+               <a href="pages/aboutus.html" class="nav-link dropdown-toggle" id="menu" >About</a>
+                <ul class="dropdown-menu" >
                     <li class="dropdown-item">
                         <a href="#whoweare" data-toggle="dropdown">Who We Are</a>
                     </li>
@@ -56,7 +56,7 @@
                 </ul>
                </li>
                <li class="nav-item dropdown">
-                <a href="pages/services.html" id="menu" data-toggle="dropdown" class="nav-link dropdown-toggle">Servies</a>
+                <a href="pages/services.html" id="menu" class="nav-link dropdown-toggle">Services</a>
                 <ul class="dropdown-menu">
                     <li class="dropdown-item">
                         <a href="#spiritualservices" data-toggle="dropdown">Spritual</a>
@@ -67,7 +67,7 @@
                 </ul>
                </li>
                <li class="nav-item dropdown">
-                <a href="pages/projects.html" id="menu" data-toggle="dropdown" class="nav-link dropdown-toggle">Projects</a>
+                <a href="pages/projects.html" id="menu" class="nav-link dropdown-toggle">Projects</a>
                 <ul class="dropdown-menu">
                     <li class="dropdown-item">
                         <a href="#saijyothi" data-toggle="dropdown">Sai Jyothi</a>
@@ -82,7 +82,7 @@
                </li>
     
              <li class="nav-item dropdown">
-                <a href="pages/blog.html" id="menu" data-toggle="dropdown" class="nav-link dropdown-toggle">Blog</a>
+                <a href="pages/blog.html" id="menu"  class="nav-link dropdown-toggle">Blog</a>
                 <ul class="dropdown-menu">
                     <li class="dropdown-item">
                         <a href="#spritualblog" data-toggle="dropdown">Spritual</a>
@@ -93,7 +93,7 @@
                 </ul>
                </li>
                 <li class="nav-item dropdown">
-                <a href="pages/gallery.html" id="menu" data-toggle="dropdown" class="nav-link dropdown-toggle">Gallery</a>
+                <a href="pages/gallery.html" id="menu" class="nav-link dropdown-toggle">Gallery</a>
                 <ul class="dropdown-menu">
                     <li class="dropdown-item">
                         <a href="#photos" data-toggle="dropdown">Photos</a>
@@ -108,7 +108,7 @@
                </li>
                
                <li class="nav-item dropdown">
-                <a href="pages/joinus.html" id="menu" data-toggle="dropdown" class="nav-link dropdown-toggle">Join Us</a>
+                <a href="pages/joinus.html" id="menu" class="nav-link dropdown-toggle">Join Us</a>
                 <ul class="dropdown-menu">
                     <li class="dropdown-item">
                         <a href="#asav" data-toggle="dropdown">As a Volunteer</a>
@@ -123,7 +123,7 @@
                </li>
               <li class="nav-item">
                   <a href="#">
-                    <button id="donatebtn">DONATE NOW</button>
+                  <button class="btn btn-success my-2 my-sm-0" type="submit">Donate Now</button> </a>
               </li>
 
             </ul>
@@ -337,10 +337,15 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 <script type="text/javascript">
-    $('.dropdown-submenu > a').on("click", function(e) {
-    var submenu = $(this);
-    $('.dropdown-submenu .dropdown-menu').removeClass('show');
-    submenu.next('.dropdown-menu').addClass('show');
+   $('li.dropdown').on('click', function() {
+    var $el = $(this);
+    if ($el.hasClass('open')) {
+        var $a = $el.children('a.dropdown-toggle');
+        if ($a.length && $a.attr('href')) {
+            location.href = $a.attr('href');
+        }
+    }
+});
 </script>
 
 </body>
