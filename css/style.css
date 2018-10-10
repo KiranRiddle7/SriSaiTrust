@@ -7,6 +7,7 @@
 .navbar {
 	padding-top: 0px;
 	padding-bottom:0px;
+
 }
 
 ul.navbar-nav li.dropdown:hover ul.dropdown-menu {
@@ -16,6 +17,8 @@ ul.navbar-nav li.dropdown:hover ul.dropdown-menu {
 .navbar-nav > li{
   padding-left:20px;
   padding-right:20px;
+
+
 }
 
 #donatebtn {
