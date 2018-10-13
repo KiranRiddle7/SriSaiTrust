@@ -18,10 +18,11 @@ ul.navbar-nav li.dropdown:hover ul.dropdown-menu {
 .navbar-nav > li{
   padding-left:20px;
   padding-right:20px;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+   font-family: 'Alegreya SC', serif;
 
 
 }
+
 
 #donatebtn {
   margin-top: 4px;
@@ -30,7 +31,6 @@ ul.navbar-nav li.dropdown:hover ul.dropdown-menu {
 
 .marqueescroll {
 
-	background-color: orange;
 }
 
 .description {
@@ -43,105 +43,6 @@ ul.navbar-nav li.dropdown:hover ul.dropdown-menu {
   /*margin-left: 130px;*/
 }
 
-.flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
-}
-
-.flex-item {
-  background: tomato;
-  padding: 5px;
-  width: 250px;
-  height: 200px;
-  margin-top: 10px;
-  
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-}
-
-.flex-item-projects {
-	background: tomato;
-  padding: 5px;
-  width: 650px;
-  height: 200px;
-  margin-top: 10px;
-  
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-}
-
-.flex-item-news {
-	background: tomato;
-  padding: 5px;
-  width: 650px;
-  height: 200px;
-  margin-top: 10px;
-  
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-}
-
-.flex-item-socialblog{
-background: tomato;
-  padding: 5px;
-   width: 415px;
-  height: 412px;
-  margin-top: 10px;
-  
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-}
-
-.flex-item-spiritualblog{
-background: tomato;
-  padding: 5px;
-   width: 415px;
-  height: 412px;
-  margin-top: 10px;
-  
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-}
-
-.flex-item-ourorgs{
-background: tomato;
-  padding: 5px;
-   width: 600px;
-  height: 300px;
-  margin-top: 10px;
-  
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-}
-
 .dropdown-submenu {
   position: relative;
 }
@@ -149,6 +50,7 @@ background: tomato;
 #copyright {
   text-align: center;
   font-size: 14px;
+  font-family: 'Asap Condensed', sans-serif;
 }
 
 .socialmedia {
@@ -157,19 +59,36 @@ background: tomato;
 
 .footerimg {
   text-align: center;
-  padding-right: 0px;
+  padding-right: 20px;
+  border-bottom: 0px;
 }
 
-.footerdiv {
-  padding-left: 0px;
-}
-
-.footernotes {
-  text-align:  right;
 }
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#footercontact {
+  padding-left: 0px;
+}
+
+.footercontactdetails {
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 15px;
+}
+
+#footercontacthead {
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 18px;
+}
+
+.footerdiv {
+  align-content: center;
+}
+
+#footertitle {
+  font-family: 'Merienda', cursive;
 }
