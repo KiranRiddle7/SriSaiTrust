@@ -1,4 +1,17 @@
+#sliderandnav {
+margin-top: 5px;
+margin-bottom: 2px;
+}
 
+#sliderhr {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#deschr {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 
 .image-header {
  width: 100%;
