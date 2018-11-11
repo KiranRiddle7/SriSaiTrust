@@ -26,6 +26,7 @@ margin-bottom: 2px;
 
 ul.navbar-nav li.dropdown:hover ul.dropdown-menu {
     display: block;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .navbar-nav > li{
@@ -43,11 +44,12 @@ ul.navbar-nav li.dropdown:hover ul.dropdown-menu {
 }
 
 .marqueescroll {
-
+  font-family: 'Metrophobic', sans-serif;
 }
 
 .description {
 	text-align: center;
+  font-family: 'Acme', sans-serif;
 }
 
 .carousel {
