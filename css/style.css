@@ -86,6 +86,11 @@ hr {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+#publication {
+  font-family: 'Fenix', serif;
+  font-size: 20px;
+}
+
 #footercontact {
   padding-left: 0px;
 }
