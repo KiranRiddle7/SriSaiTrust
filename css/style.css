@@ -1,5 +1,5 @@
 #sliderandnav {
-margin-top: 5px;
+margin-top: 1px;
 margin-bottom: 2px;
 }
 
@@ -18,8 +18,8 @@ margin-bottom: 2px;
 }
 
 .navbar {
-	padding-top: 0px;
-	padding-bottom:0px;
+	padding-top: 4px;
+	padding-bottom:4px;
   background-color: white;
 
 }
@@ -27,6 +27,7 @@ margin-bottom: 2px;
 ul.navbar-nav li.dropdown:hover ul.dropdown-menu {
     display: block;
     font-family: 'PT Sans', sans-serif;
+
 }
 
 .navbar-nav > li{
