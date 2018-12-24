@@ -65,12 +65,14 @@ ul.navbar-nav li.dropdown:hover ul.dropdown-menu {
 
 #copyright {
   text-align: center;
+  margin-bottom: 0px;
   font-size: 14px;
   font-family: 'Asap Condensed', sans-serif;
 }
 
 .socialmedia {
-  color: black;
+  background-color: #233140;
+  color: white;
 }
 
 .footerimg {
@@ -92,12 +94,8 @@ hr {
   font-size: 16px;
 }
 
-#footercontact {
-  padding-left: 0px;
-}
-
 .footercontactdetails {
-  font-family: 'Asap Condensed', sans-serif;
+  font-family: 'Times New Roman'
   font-size: 15px;
 }
 
@@ -106,10 +104,17 @@ hr {
   font-size: 18px;
 }
 
-.footerdiv {
-  align-content: center;
+#footerlinks {
+
+  color: white;
 }
 
-#footertitle {
-  font-family: 'Merienda', cursive;
+#footerlinks1 {
+  color: white;
+  font-size: 13px;
+  text-align: center;
 }
+a {
+    text-decoration: none !important;
+}
+
