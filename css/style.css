@@ -191,3 +191,8 @@ padding-top: 5px;
   background: #007bb5;
   color: white;
 }
+
+.overlay {
+	background-color: grey;
+
+}
