@@ -196,10 +196,12 @@ hr {
 
 .overlay {
 	background-color: #FAF0E6;
+	margin-top: 0px;
 }
 
 .overlay1 {
 	background-color: #FFE4E1;
+	margin-top: 0px;
 }
 
 #website {
@@ -208,3 +210,4 @@ hr {
   font-size: 10px;
   font-family: 'Asap Condensed', sans-serif;
 }
+
