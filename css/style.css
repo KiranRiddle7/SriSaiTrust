@@ -154,8 +154,10 @@ hr {
 }
 
 .footer-below {
-padding-top: 5px;
+
+    padding-top: 5px;
     padding-bottom: 5px;
+
 }
 
 
@@ -193,6 +195,16 @@ padding-top: 5px;
 }
 
 .overlay {
-	background-color: grey;
+	background-color: #FAF0E6;
+}
 
+.overlay1 {
+	background-color: #FFE4E1;
+}
+
+#website {
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 10px;
+  font-family: 'Asap Condensed', sans-serif;
 }
