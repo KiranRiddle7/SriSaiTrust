@@ -1,7 +1,7 @@
 $(document).ready(function() {
   var day = getDayOfYear();
   var n = 365; // Change this to the number of images you have available
-  var img_path = 'img/img_' + ((getDayOfYear() % n) + 1) + '.jpg';
+  var img_path = 'img/quotes/img_' + ((getDayOfYear() % n) + 1) + '.jpg';
   $("#my_image").attr("src", img_path);
 });
 
