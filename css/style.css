@@ -211,3 +211,7 @@ hr {
   font-family: 'Asap Condensed', sans-serif;
 }
 
+#disclaimer {
+	text-align: center;
+	color: blue;
+}
